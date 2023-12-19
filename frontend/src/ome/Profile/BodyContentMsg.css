@@ -1,0 +1,73 @@
+.BodyContent1{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    scrollbar-width: thin; 
+    scrollbar-color: transparent rgba(0, 0, 0, 0.3);
+}
+.BodyContent1::-webkit-scrollbar {
+    width: 12px; 
+  }
+.Bodysend{
+    width: 100%;
+    height: 40px;
+    /* background-color: aliceblue; */
+    position: absolute; 
+    bottom: 0;  
+}
+.Bodysend>input[type=text]{
+    width: 79%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    height: 37px;
+    background-color: rgb(255, 255, 255,0.3);
+    padding-right: 80px;
+
+}
+#sendmsg{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 70px;
+    background-color: rgb(255, 255, 255,0.5);
+    border-radius: 5px;
+}
+div.p_left{
+    float: left;
+    padding-left:5px ;
+    clear: both;
+}
+div.p_right{
+    float: right;
+    padding-right:5px ;
+    clear: both;
+}
+@media (max-width:568px) {
+
+    .Bodysend>input[type=text]{
+    width: 80%;
+    /* height: 50px; */
+    }   
+    div.p_left{
+        float: left;
+        padding-left:20px ;
+        clear: both;
+    }
+    div.p_right{
+        float: right;
+        padding-right:20px ;
+        clear: both;
+    }
+    #sendmsg{
+        position: absolute;
+        bottom: 4px;
+        right: 5px;
+        width: 70px;
+        background-color: rgb(255, 255, 255,0.5);
+        border-radius: 5px;
+    }
+    /* .BodyContent1{
+        border-top: 0.5px black;
+    } */
+}

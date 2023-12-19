@@ -1,0 +1,51 @@
+.Character{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+#elem{
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 50vh;
+    text-align: center;
+    
+}
+button{
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 25vh;
+
+}
+.characterP{  
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 48%;
+    left: 39%;
+}
+h1{
+    padding-bottom: 10px;
+}
+.rdi{
+    display: flex;
+    flex-direction: row;
+}
+.rdi>h4{
+    display: inline;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-right: 5px;
+}
+@media (max-width:568px) {
+    p{
+        left: 45%;
+    }
+}

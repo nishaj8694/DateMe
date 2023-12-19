@@ -1,0 +1,57 @@
+.msgHedder{
+    width: 30%;
+    height: 95%;
+    background-color:transparent;
+    overflow-y: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border: 0.4px solid rgb(189, 146, 146,0.6); 
+    background-color:rgb(255, 255, 255,0.1);
+    position: relative;
+}  
+.msgHedder > :first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    font-size: xx-large;
+    border-bottom: 0.1px solid rgb(189, 146, 146,0.4); 
+    width: 100%;
+  }
+  
+  .msgHedder > :not(:first-child) {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    height: 5%;
+    width: 100%;
+    border-bottom: 0.1px solid rgb(189, 146, 146,0.4);
+
+}
+.spanspace{
+    margin-left: 10%;
+}
+.spanspace.active{
+    /* background-color: rgb(255, 255, 255,0); */
+    color: blue;
+}
+  
+.backbutton{
+    position: absolute;
+    bottom: 1%;
+}
+.backbutton>p{
+    margin-left: 10%;
+}
+
+@media (max-width:568px) {
+    .msgHedder{
+        /* width: 100%;
+        height: 100vh; */
+        display: none;
+    }   
+    
+}

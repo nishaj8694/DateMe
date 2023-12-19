@@ -1,0 +1,55 @@
+.Otppage{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Otp{
+    /* height: 100vh; */
+    width: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid #949292;
+    padding: 40px 25px 70px 25px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
+}
+#otptext{
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 50vh;
+    text-align: center;
+    
+}
+#otpbutton{
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 50vh;
+
+}
+#OtpP{  
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    color: red;
+    top: 46%;
+    left: 38%;
+}
+h1{
+    padding-bottom: 5px;
+}
+
+@media (max-width:568px) {
+    p{
+        left: 45%;
+    }
+}
+    

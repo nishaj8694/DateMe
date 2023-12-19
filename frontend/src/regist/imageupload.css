@@ -1,0 +1,70 @@
+.imgupld{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.imgupldin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imgflex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;    
+}
+.imgflex:last-child{
+    margin-top: 10px;
+}
+.imgcontainer{
+    position: relative;
+    width: 150px;
+    height: 250px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.in-row {
+    flex: 0 0 calc(50% - 5px);
+    margin-bottom: 5px; 
+  }
+  
+.next-row {
+    flex: 0 0 calc(50% - 5px); 
+  } 
+.imgcontainer>div>img{
+    width: 100%;
+    height: 250px;   
+}
+.imgcontainer>div{
+    position: relative;
+}
+.imgcontainer>div>button{
+    position: absolute;
+    font-size: xx-large;
+    width: 20px;
+    height: 20px;
+    right: 4%;
+    top: 4%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: #fcf8f8; 
+    font-size: 16px; 
+    cursor: pointer;
+    padding: 0;
+    
+
+}
+.plus-icon{
+    position: absolute;
+    transform: translate(-50%, 240%);
+    font-size: xx-large;
+    color:black;
+    cursor: pointer;
+    
+}

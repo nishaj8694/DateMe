@@ -1,0 +1,100 @@
+.Cpp {
+    min-width: 100%;
+    min-height: 100vh;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cppBox{
+    padding: 40px 90px 60px 90px;
+    border-radius: 20px;
+    background: rgb(194, 192, 192 ,0.3);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
+  }
+  .cppBox>h3{
+    margin-top: 0;
+    margin-bottom: 35px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .cppBox>label{
+    padding-left: 5px;
+  }
+  .cppBox>p{
+    color: rgb(2, 121, 32);
+    position: absolute;
+    top: 200px;
+    left: 550px;
+    text-align: center;
+  }
+  .cppBox>input{
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(205, 209, 209);
+   }  
+   .cppBox>input:focus{
+    background-color: white;
+   }
+   .cppBox>button{
+    height: 30px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: block;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(205, 209, 209);
+   }
+   .cppBox>button:hover{
+    background-color: rgb(96, 96, 99);
+   }
+   .cppBox>a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: x-small;
+   }
+   .cppBox>a:hover{
+    text-decoration: none;
+    color: rgb(74, 86, 199);
+   }
+  @media (max-width:568px) {
+   .cppBox{
+    padding: 40px;
+    font-size: x-large;
+   }
+   .cppBox>input{
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    font-size: large;
+   }  
+   .cppBox>button{
+    height: 30px;
+    width: 100px;
+    font-size: large;
+    border-radius: 5px;
+   }
+   .cppBox>button:hover{
+    background-color: blue;
+   }
+  
+  }
+  
+  
+  
+  
+  

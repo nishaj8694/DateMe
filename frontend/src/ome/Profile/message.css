@@ -1,0 +1,14 @@
+.msg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:568px) {
+    .msg{
+    flex-direction: column;
+    }
+}

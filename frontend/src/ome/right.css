@@ -1,0 +1,93 @@
+.right{
+    /* display: flex; */
+    /* flex-direction: column; */
+    padding-top: 20px;
+    overflow-y: auto;
+    scrollbar-width: thin; /* Adjust the width as needed */
+    scrollbar-color: transparent rgba(0, 0, 0, 0.3);
+}
+.right::-webkit-scrollbar {
+    width: 12px; /* Adjust the width as needed */
+  }
+.chatLog{
+    position: relative;
+    height: 45px;
+    width: 85%;
+    background-color: aliceblue;
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-top: 10px;
+    /* position: relative; */
+}
+.chatLog>img{
+    height: 100%;
+    width: 13%;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    /* top: 50%; */
+    left: 0% ;
+    /* transform: translate(-0%,-50%); */
+}
+.chatLog>label{
+    float: left;
+    font-size: larger;
+    position: absolute;
+    bottom: 25%;
+    left: 15% ;
+    /* transform: translate(-0%,-50%); */
+}
+.notification{
+    position:absolute;
+    /* font-size:smaller; */
+    /* bottom: 25%; */
+    right: 10%;
+}
+.badge {
+    position: absolute;
+    top: 0%;
+    right: -10%;
+    padding: 8px 10px;
+    border-radius: 50%;
+    background: rgb(230, 59, 59);
+    color: white;
+    font-size: xx-small;
+    padding: 2px;
+  }
+
+
+@media (max-width: 768px) {
+    .right{
+        display: none;
+    
+    }
+    .chatLog{
+        display: none;
+       
+    }
+    .chatLog>img{
+        display: none;
+       
+    }
+    .chatLog>label{
+        display: none;
+    }    
+}
+
+@media (max-width: 568px) {
+    .right{
+        display: none;
+    
+    }
+    .chatLog{
+        display: none;
+       
+    }
+    .chatLog>img{
+        display: none;
+       
+    }
+    .chatLog>label{
+        display: none;
+    }    
+}

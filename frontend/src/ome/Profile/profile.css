@@ -1,0 +1,34 @@
+.profileHome{
+    width: 100%;
+    height: auto;
+}
+.picturecol{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    transform: translate(10%);
+   
+}
+.picturRow{
+    width: 50%;
+    height: 150px;
+    padding: 5px; 
+    box-sizing: border-box;
+}
+.picturRow>img{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,0.5) 0%, rgba(148,187,233,0.5) 100%)
+}
+table{
+    width: 80%;
+    border: 1px solid black;
+    transform: translate(10%);
+
+}
+table>tbody>tr>td{
+    border: 1px solid black;
+}
+table>tbody>tr>td:first-child{
+    font-size: larger;
+}
