@@ -1,8 +1,9 @@
 DateMe APP
--------------------------
+==========
 his open-source project combines the power of Python Django on the backend with the dynamic and responsive interface of React on the frontend to create a modern and interactive dating website.
 
 Features
+--------
 User Registration and Authentication:
 
 Secure user registration with email verification.
@@ -25,7 +26,7 @@ Modern and responsive design using React for a seamless user experience.
 Intuitive navigation for easy exploration of profiles and matches.
 
 Technologies used
-----------------------
+-----------------
 Backend:
 
 Python Django: A high-level web framework for rapid development.
