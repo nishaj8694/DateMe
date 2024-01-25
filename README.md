@@ -1,5 +1,5 @@
-DateMe
-
+DateMe APP
+-------------------------
 his open-source project combines the power of Python Django on the backend with the dynamic and responsive interface of React on the frontend to create a modern and interactive dating website.
 
 Features
